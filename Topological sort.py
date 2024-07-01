@@ -1,4 +1,5 @@
 #Function to return list containing vertices in Topological order.
+#Topological sort using Kahn's algorithm
     def topoSort(self, V, adj):
         # Code here
         indegree = [0] * V
